@@ -29,7 +29,7 @@ const authLink = setContext((_, { headers }) => {
 
 const wsLink = new GraphQLWsLink(
   createClient({
-    url: "ws://chat-app-u4ju.onrender.com/graphql",
+    url: "wss://chat-app-u4ju.onrender.com/graphql",
   })
 )
 
